@@ -2,7 +2,7 @@ import React from 'react';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './Header.css';
 
-export function Header(props) {
+export default function Header(props) {
   return (
     <div className="Header">
       <h1>This is the header.</h1>
@@ -10,5 +10,3 @@ export function Header(props) {
     </div>
   );
 }
-
-export default Header;

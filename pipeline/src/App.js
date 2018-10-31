@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './components/landing/LandingPage';
+import LoginPage from './components/login/LoginPage';
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,8 @@ export default class App extends Component {
       <div className="App">
         <NavBar />
         <Header />
-        <LandingPage />
+        {/*<LandingPage />*/}
+        <LoginPage />
         <Footer />
       </div>
     );

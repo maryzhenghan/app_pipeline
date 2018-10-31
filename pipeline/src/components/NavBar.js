@@ -2,7 +2,7 @@ import React from 'react';
 // import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './NavBar.css';
 
-export function NavBar(props) {
+export default function NavBar(props) {
   return (
     <div className="NavBar">
       <nav className="menu">
@@ -16,5 +16,3 @@ export function NavBar(props) {
     </div>
   );
 }
-
-export default NavBar;
