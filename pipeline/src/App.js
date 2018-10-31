@@ -5,6 +5,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import LandingPage from './components/landing/LandingPage';
 
 export default class App extends Component {
   render() {
@@ -12,7 +13,7 @@ export default class App extends Component {
       <div className="App">
         <NavBar />
         <Header />
-          <p>Hello world, this is where the body content & components will go.</p>
+        <LandingPage />
         <Footer />
       </div>
     );
